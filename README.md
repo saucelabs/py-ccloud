@@ -28,3 +28,15 @@ ccloud.login()
 ccloud.list_clusters()
 ccloud.create_topic("myTopic", "myCluster")
 ```
+
+<!-- Links (alphabetically) -->
+[commit]: https://github.com/saucelabs/py-ccloud/commit/HEAD
+[release]: https://github.com/saucelabs/py-ccloud/releases/latest
+
+<!-- Badges (alphabetically) -->
+[commit badge]: https://img.shields.io/github/last-commit/saucelabs/py-ccloud.svg
+[release badge]: https://img.shields.io/github/release/saucelabs/py-ccloud.svg
+
+## Contributing
+
+We would love to have outside contributors chiming in supporting us finishing this. Please have a look at our [contribution guidelines](https://github.com/saucelabs/py-ccloud/blob/master/CONTRUBUTING.md).
