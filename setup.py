@@ -6,15 +6,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-ccloud",
-    version="0.0.1",
-    scripts=["pyccloud"],
+    version="0.0.2",
     author="Pawel Dudzinski",
     author_email="pawel.dudzinski@saucelabs.com",
     description="Simple Python library wrapping the Confluent Cloud CLI",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/saucelabs/py-ccloud",
-    packages=setuptools.find_packages(),
+    py_modules=["ccloud"],
     classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",

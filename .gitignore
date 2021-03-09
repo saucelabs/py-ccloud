@@ -2,3 +2,4 @@ __pycache__
 pyccloud
 dist/
 *egg-info/
+.idea/
