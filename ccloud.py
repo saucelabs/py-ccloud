@@ -93,8 +93,8 @@ def create_topic_acl(service_account: str, topic: str, operation: str, prefix: b
     _acl(service_account, topic, operation, "topic", "create", prefix=prefix)
 
 
-def create_consumer_group_acl(service_account: str, topic: str, operation: str, prefix: bool = False) -> None:
-    _acl(service_account, topic, operation, "consumer-group", "create", prefix=prefix)
+def create_consumer_group_acl(service_account: str, consumer_group: str, operation: str, prefix: bool = False) -> None:
+    _acl(service_account, consumer_group, operation, "consumer-group", "create", prefix=prefix)
 
 
 def delete_topic_acl(service_account: str, topic: str, operation: str, prefix: bool = False) -> None:
