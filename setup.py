@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-ccloud",
-    version="0.0.2",
+    version="0.1.0",
     author="Pawel Dudzinski",
     author_email="pawel.dudzinski@saucelabs.com",
     description="Simple Python library wrapping the Confluent Cloud CLI",
