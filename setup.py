@@ -1,16 +1,13 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 
 setuptools.setup(
     name="py-ccloud",
-    version="0.1.0",
+    version="0.1.1",
     author="Pawel Dudzinski",
     author_email="pawel.dudzinski@saucelabs.com",
     description="Simple Python library wrapping the Confluent Cloud CLI",
-    long_description=long_description,
+    long_description="Simple Python library wrapping the Confluent Cloud CLI",
     long_description_content_type="text/markdown",
     url="https://github.com/saucelabs/py-ccloud",
     py_modules=["ccloud"],

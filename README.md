@@ -20,20 +20,17 @@ export CCLOUD_EMAIL=...
 export CCLOUD_PASSWORD=...
 ```
 
-Login and execute action, e.g:
+Login and execute action:
 ```python
 import ccloud
-
 ccloud.login()
 ccloud.list_clusters()
 ccloud.create_topic("myTopic", "myCluster")
 ```
 
-<!-- Links (alphabetically) -->
 [commit]: https://github.com/saucelabs/py-ccloud/commit/HEAD
 [release]: https://github.com/saucelabs/py-ccloud/releases/latest
 
-<!-- Badges (alphabetically) -->
 [commit badge]: https://img.shields.io/github/last-commit/saucelabs/py-ccloud.svg
 [release badge]: https://img.shields.io/github/release/saucelabs/py-ccloud.svg
 
