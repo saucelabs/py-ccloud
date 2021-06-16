@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="py-ccloud",
-    version="0.1.1",
+    version="0.1.2",
     author="Pawel Dudzinski",
     author_email="pawel.dudzinski@saucelabs.com",
     description="Simple Python library wrapping the Confluent Cloud CLI",

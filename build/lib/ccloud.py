@@ -101,8 +101,8 @@ def delete_topic_acl(service_account: str, topic: str, operation: str, prefix: b
     _acl(service_account, topic, operation, "topic", "delete", prefix=prefix)
 
 
-def delete_consumer_group_acl(service_account: str, consumer_group: str, operation: str, prefix: bool = False) -> None:
-    _acl(service_account, consumer_group, operation, "consumer-group", "delete", prefix=prefix)
+def delete_consumer_group_acl(service_account: str, topic: str, operation: str, prefix: bool = False) -> None:
+    _acl(service_account, topic, operation, "consumer-group", "delete", prefix=prefix)
 
 
 def create_api_key(cluster: str, service_account: str) -> Dict:
