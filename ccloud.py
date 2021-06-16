@@ -30,7 +30,9 @@ def list_envs() -> Tuple:
     return _list("environment")
 
 
-def list_clusters() -> Tuple:
+def list_clusters(environment: Optional[str]) -> Tuple:
+    if environment:
+        use_env(environment)
     return _list("kafka cluster")
 
 
